@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Login</title>
+  <link rel="stylesheet" href="styles.css"> <!-- link to external CSS file -->
+</head>
+<body>
+  
+  <div class="container">
+    <div class="transbox">
+    <h1>Login</h1>
+    <form action="login.php" method="post"> <!-- form submission to login.php using POST method -->
+      <label for="username">Username</label>
+      <input type="text" id="username" name="username" required>
+      <label for="password">Password</label>
+      <input type="password" id="password" name="password" required>
+      <input type="submit" value="SUBMIT">
+    </form>
+    <p>Don't have an account? <a href="signup.html">Sign up</a></p> <!-- link to sign up page -->
+  </div>
+</div>
+</body>
+</html>
